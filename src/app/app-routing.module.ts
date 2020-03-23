@@ -6,8 +6,13 @@ import { PhotographyComponent } from './photography/photography.component';
 import { VideographyComponent } from './videography/videography.component';
 
 const routes: Routes = [
-	{ 
-		path: '',      
+	 { 
+	 	path: '',
+	    redirectTo: 'home',
+	    pathMatch: 'full'
+  	},
+  { 
+		path: 'home',      
 		component: LandingComponent 
 	},
 	{

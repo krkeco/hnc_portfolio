@@ -1,11 +1,19 @@
 # HannahNacole
 
 ##todo
-#menubar
-#photography
-#identity design (logos)
-#blog (lifestyle/travel)
-#contact
+ - photography
+ - identity design (logos)
+ - videography
+
+##pending
+
+##draft0
+ - menubar
+ - landing page
+ -- about
+ -- quote
+ -- push to action
+ 
 
 
 
