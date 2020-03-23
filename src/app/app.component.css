@@ -1,0 +1,9 @@
+.block {
+	margin:2%;
+	outline:1px solid black;
+	width: 96%;
+	height:95%;
+}
+.app{
+	font-family: 'Avenir-Light'; 
+}
