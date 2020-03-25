@@ -1,26 +1,26 @@
 .quote-block {
-	height:100vh;
-	width:100%;
-	background-color: #cce89a;
-	display:flex;
-	flex-direction:column;
-	justify-content: center;
-	padding:50px;
+  height: 100vh;
+  width: 100%;
+  background-color: #cce89a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
 }
 .quote-icon-container {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.q-icon{
-	font-size:72pt;
+.q-icon {
+  font-size: 72pt;
 }
-.quote{
-	font-size:24pt;
-	line-height:36pt;
-	margin-top: 42pt;
-	margin-left: 20px;
+.quote {
+  font-size: 24pt;
+  line-height: 36pt;
+  margin-top: 42pt;
+  margin-left: 20px;
 }
-.speaker{
-	text-align: right;
-	font-size:12pt;
+.speaker {
+  text-align: right;
+  font-size: 12pt;
 }

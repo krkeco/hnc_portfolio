@@ -1,14 +1,11 @@
 <div class="container">
-	<div></div>
-	
-            <div *ngFor="let feature of features">
-                
-				<app-feature-item 
-					[title]="feature.title" 
-					[text]="feature.text" 
-					[route]="feature.route"
-					[url]="feature.url">
-				</app-feature-item>
-            </div>
-	<div></div>
+  <div *ngFor="let feature of features">
+    <app-feature-item
+      [title]="feature.title"
+      [text]="feature.text"
+      [route]="feature.route"
+      [url]="feature.url"
+    >
+    </app-feature-item>
+  </div>
 </div>

@@ -1,5 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MatIconModule } from "@angular/material/icon";
+
+import { HttpClientModule } from '@angular/common/http';
+import { AngularSvgIconModule } from 'angular-svg-icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,15 +18,15 @@ import { LandingComponent } from './landing/landing.component';
 import { VideographyComponent } from './videography/videography.component';
 import { MenuComponent } from './menu/menu.component';
 import { FeatureComponent } from './feature/feature.component';
-import {MatButtonModule} from '@angular/material/button'; 
-import {MatMenuModule} from '@angular/material/menu'; 
+import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FeatureItemComponent } from './feature-item/feature-item.component';
 import { QuoteComponent } from './quote/quote.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
-import {YouTubePlayerModule} from '@angular/youtube-player';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     FeatureComponent,
     FeatureItemComponent,
     QuoteComponent,
-    YoutubePlayerComponent
+    YoutubePlayerComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,9 +53,11 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MatMenuModule,
     FontAwesomeModule,
     YouTubePlayerModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule, 
+    MatIconModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

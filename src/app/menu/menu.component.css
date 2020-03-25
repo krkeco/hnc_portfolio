@@ -1,24 +1,28 @@
 .sticky {
-	position: fixed;
-	background-color: white;
-	top: 0;
-	margin-left: 25;
-	width: 100%;
-	height: 50px;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  padding: 20px;
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  /*outline: 1px solid black;*/
 }
-.menu-height-margin{
-	height:50px;
-	width:10px;
+.menu-height-margin {
+  height: 50px;
+  width: 10px;
 }
-.menu-item{
-	font-size: 9pt;
-	letter-spacing: 2px;
-	font-family: "Avenir-Light";
+.menu-item {
+  /*outline:1px solid black;*/
+  font-size: 9pt;
+  letter-spacing: 2px;
+  font-family: 'Avenir-Light';
+  outline: none;
 }
-.bold { 
-	font-family: "Avenir-Heavy";
- }
+.bold {
+  font-family: 'Avenir-Heavy';
+}

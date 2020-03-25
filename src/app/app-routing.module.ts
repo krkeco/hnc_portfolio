@@ -6,31 +6,31 @@ import { PhotographyComponent } from './photography/photography.component';
 import { VideographyComponent } from './videography/videography.component';
 
 const routes: Routes = [
-	 { 
-	 	path: '',
-	    redirectTo: 'home',
-	    pathMatch: 'full'
-  	},
-  { 
-		path: 'home',      
-		component: LandingComponent 
-	},
-	{
-	path:'videography',
-	component: VideographyComponent
-	},
-	{
-	path:'identity',
-	component: IdentityComponent
-	},
-	{
-	path:'photography',
-	component: PhotographyComponent
-	}
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
+  },
+  {
+    path: 'home',
+    component: LandingComponent,
+  },
+  {
+    path: 'videography',
+    component: VideographyComponent,
+  },
+  {
+    path: 'identity',
+    component: IdentityComponent,
+  },
+  {
+    path: 'photography',
+    component: PhotographyComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
