@@ -1,0 +1,10 @@
+
+.container{
+	display:flex;
+	/*border:1px solid black;*/
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+/*	background-color: gray;*/
+}

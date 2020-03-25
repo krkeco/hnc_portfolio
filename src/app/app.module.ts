@@ -22,6 +22,7 @@ import { FeatureItemComponent } from './feature-item/feature-item.component';
 import { QuoteComponent } from './quote/quote.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 import {YouTubePlayerModule} from '@angular/youtube-player';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import {YouTubePlayerModule} from '@angular/youtube-player';
     MatButtonModule,
     MatMenuModule,
     FontAwesomeModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

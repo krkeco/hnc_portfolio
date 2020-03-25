@@ -1,0 +1,24 @@
+<div>
+
+  <div class="container">
+<ngb-carousel *ngIf="images" class="carousel" >
+	 <ng-template ngbSlide *ngFor="let item of images[this.id]; let i = index">
+    <div class="picsum-img-wrapper">
+      <img [src]="item" alt="{{i}}" height="700px" width="700px">
+    </div>
+<!--     <div class="carousel-caption">
+      <h3>slide {{i}} label </h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div> -->
+  </ng-template>
+</ngb-carousel>
+</div>
+<!-- 
+Events
+Harvest Festival
+<br/>
+Lifestyle
+Kay&Tim
+Thanksgiving
+ -->
+</div>

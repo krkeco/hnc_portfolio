@@ -1,0 +1,52 @@
+<div class="sticky">
+	<div>
+	<button 
+		routerLinkActive="bold" 
+		[matMenuTriggerFor]="photography" 
+		class="menu-item" 
+		mat-button >
+		PHOTOGRAPHY
+	</button>
+	<button 
+		routerLinkActive="bold" 
+		class="menu-item"  
+		routerLink="/videography" 
+		mat-button >
+		VIDEOGRAPHY
+	</button>
+	<button 
+		routerLinkActive="bold" 
+		class="menu-item"  
+		routerLink="/identity" 
+		mat-button >
+		IDENTITY
+	</button>
+	</div>
+	<button routerLinkActive="bold" class="menu-item"  routerLink="/home" mat-button >HOME</button>
+</div>
+
+
+<mat-menu #photography="matMenu">
+  <button class="menu-item" mat-menu-item [matMenuTriggerFor]="travelMenu">Travel</button>
+  <button class="menu-item" mat-menu-item [matMenuTriggerFor]="eventMenu">Events</button>
+  <button class="menu-item" mat-menu-item [matMenuTriggerFor]="lifestyleMenu">Lifestyle</button>
+</mat-menu>
+
+<mat-menu #travelMenu="matMenu">
+  <button class="menu-item" routerLink="/photography" [queryParams]="{id:'paris'}" mat-menu-item>Paris</button>
+  <button class="menu-item" routerLink="/photography" [queryParams]="{id:'sandiego'}"  mat-menu-item>San Diego</button>
+  <button class="menu-item" routerLink="/photography" [queryParams]="{id:'ensenada'}"  mat-menu-item>Ensenada</button>
+  <button class="menu-item" routerLink="/photography" [queryParams]="{id:'rome'}"  mat-menu-item>Rome</button>
+</mat-menu>
+
+<mat-menu #eventMenu="matMenu">
+  <button class="menu-item" mat-menu-item>Harvest Festival</button>
+  <button class="menu-item" mat-menu-item>VBS</button>
+</mat-menu>
+
+<mat-menu #lifestyleMenu="matMenu">
+  <button class="menu-item" mat-menu-item>Kay&Time</button>
+  <button class="menu-item" mat-menu-item>Thanksgiving</button>
+</mat-menu>
+
+<div class="menu-height-margin"> </div>
