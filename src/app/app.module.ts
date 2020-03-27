@@ -27,6 +27,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SocialBarComponent } from './social-bar/social-bar.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FeatureItemComponent,
     QuoteComponent,
     YoutubePlayerComponent,
+    SocialBarComponent,
   ],
   imports: [
     BrowserModule,

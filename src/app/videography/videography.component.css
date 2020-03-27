@@ -26,3 +26,25 @@
   height: 80px;
   background-color: black;
 }
+.menu-container {
+  position: fixed;
+  top:5px;
+  right:150px;
+  display:flex;
+  height:50px;
+  /*width: 400px;*/
+  /*outline: 1px solid black;*/
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  
+  /*outline: 1px solid black;*/
+  
+}
+.sub-btn{
+  background-color:white;
+  width: 120px;
+  color: #4a544a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

@@ -26,3 +26,11 @@ body { margin: 0; }
     font-weight: normal;
     font-style: normal;
 }
+
+.view-padding-top {
+    padding-top: 100px;
+}
+
+.alt-bg-color{
+    background-color: #4a544a !important;
+}

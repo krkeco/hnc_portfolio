@@ -6,6 +6,8 @@ import {
 } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
+import {StylingService} from '../styling.service'
+
 @Component({
   selector: 'app-videography',
   templateUrl: './videography.component.html',
@@ -18,15 +20,19 @@ export class VideographyComponent implements OnInit {
 		lifestyle: "Lifestyle"
 	}
 
-  constructor(private Activatedroute: ActivatedRoute) {
-    
+  constructor(private Activatedroute: ActivatedRoute, private stylingService: StylingService ) {
   }
 
   ngOnInit(): void {
     
+    this.stylingService.setMenuStyles('video')
+
     this.Activatedroute.queryParamMap.subscribe((params) => {
       this.id = params.get('id');
       console.log('Query params ', this.id);
     });
+  }
+  ngOnDestroy(): void{
+    this.stylingService.setMenuStyles('')
   }
 }
