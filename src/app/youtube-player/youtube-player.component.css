@@ -1,2 +1,25 @@
 .container {
+	display: flex;
+	flex-direction: column;
+	/*outline: 1px solid black;*/
+	align-items: center;
+
+
+}
+
+.you-btn{
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+  background-color: transparent;
+
+}
+.icon {
+	color: white;
+	font-size:24px;
+	margin-left:4px;
+}
+
+.hidden {
+	visibility: hidden;
 }

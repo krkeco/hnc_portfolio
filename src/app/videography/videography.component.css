@@ -1,31 +1,3 @@
-.archive-text {
-  font-family: 'Avenir-Light';
-  font-size: 10pt;
-}
-.video-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.favorite-container {
-  width: 100%;
-  padding: 100px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-.favorite-text {
-  text-align: left;
-  font-family: 'Avenir-Light';
-  font-size: 10pt;
-  margin-left: 200px;
-}
-.favorite-box {
-  width: 200px;
-  height: 80px;
-  background-color: black;
-}
 .menu-container {
   position: fixed;
   top:5px;
@@ -48,3 +20,49 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+
+.title {
+  font-family: 'Avenir-Heavy';
+  font-size: 40px;
+  color:white;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.subtitle {
+  font-family: 'Avenir-Book';
+  font-size: 20px;
+  color:white;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+
+.video-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.favorite-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+  padding-bottom:100px;
+}
+.favorite-text {
+  text-align: left;
+  font-family: 'Avenir-Light';
+  font-size: 10pt;
+  margin-left: 200px;
+}
+.favorite-box {
+  width: 200px;
+  height: 80px;
+  background-color: black;
+}
+

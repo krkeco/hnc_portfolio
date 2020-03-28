@@ -15,10 +15,29 @@ import {StylingService} from '../styling.service'
 })
 export class VideographyComponent implements OnInit {
   id;
-	titles = {
-		tom: "Archives: TOMStudio",
-		lifestyle: "Lifestyle"
-	}
+  titles = {
+    tom: "Meditations",
+    lifestyle: "Lifestyle"
+  }
+  subtitles = {
+    tom: "…because something is always cooking in our studio",
+    lifestyle: "Lifestyle"
+  }
+
+  // reqYoutubePlayer() {
+  //   console.log("let's do this!")
+
+  //   let player = document.getElementById('yotube-player')
+  //   if (!player.fullscreenElement) {
+  //     player.requestFullscreen().catch(err => {
+  //         alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+  //       });
+  //     } else {
+  //       document.exitFullscreen();
+  //     }
+    
+
+  // }
 
   constructor(private Activatedroute: ActivatedRoute, private stylingService: StylingService ) {
   }

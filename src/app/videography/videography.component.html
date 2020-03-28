@@ -1,17 +1,21 @@
-  <div class="view-padding-top alt-bg-color">
+<div class="view-padding-top alt-bg-color">
+  
   <div class="menu-container">
     <app-social-bar [style]="'white'" ></app-social-bar>
     <button class="sub-btn" mat-button>Subscribe</button>
   </div>
-
+  
   <div class="video-container">
-    <p class="archive-text">{{titles[this.id]}}</p>
-    <app-youtube-player></app-youtube-player>
+    <p class="title">{{titles[this.id]}}</p>
+    <p class="subtitle">"{{subtitles[this.id]}}"</p>
+    <app-youtube-player ></app-youtube-player>
   </div>
+
   <p class="favorite-text">Favorites</p>
   <div class="favorite-container">
     <div class="favorite-box">1</div>
     <div class="favorite-box">2</div>
     <div class="favorite-box">3</div>
   </div>
+  
 </div>

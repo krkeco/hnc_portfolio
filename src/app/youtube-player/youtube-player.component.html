@@ -1,1 +1,8 @@
-<youtube-player class="container" videoId="6L0R9-jSLuI"></youtube-player>
+<!-- <youtube-player class="container" videoId="6L0R9-jSLuI"></youtube-player> -->
+<div class="container">
+	<button id="you-btn" class="you-btn" (click)="playFullscreen()">
+		<fa-icon [icon]="faPlay" class="icon"></fa-icon>
+	</button>
+
+    <iframe muted id="youtube" class="hidden"  src="http://www.youtube.com/embed/6L0R9-jSLuI?modestbranding=1&autoplay=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1&playlist=IsBInsOj8TY" frameborder="0"></iframe>
+</div>
