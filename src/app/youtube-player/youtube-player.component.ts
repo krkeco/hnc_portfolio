@@ -25,9 +25,18 @@ export class YoutubePlayerComponent implements OnInit {
 
     this.source = "http://www.youtube.com/embed/6L0R9-jSLuI?modestbranding=1&autoplay=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1&playlist=IsBInsOj8TY"
     this.iframe  = document.getElementById('youtube');
+    this.iframe.className =   "hidden"
 
-    this.iframe.onfullscreenchange = () => {
-    	this.isFullScreen = !this.isFullScreen
+  }
+
+  playFullscreen (){
+  	console.log('pla first')
+    
+    this.requestFullScreen = this.iframe.requestFullScreen || this.iframe.mozRequestFullScreen || this.iframe.webkitRequestFullScreen;
+    if (this.requestFullScreen) {
+      this.requestFullScreen.bind(this.iframe)();
+    }
+    this.isFullScreen = !this.isFullScreen
       if(this.isFullScreen){
       this.iframe.src = this.source;
       this.iframe.className =   "videoContainer__video"
@@ -38,16 +47,5 @@ export class YoutubePlayerComponent implements OnInit {
       console.log('reset source?')
       this.iframe.className =   "hidden"
     }
-    	 
-    }
   }
-
-playFullscreen (){
-	console.log('pla first')
-  
-  this.requestFullScreen = this.iframe.requestFullScreen || this.iframe.mozRequestFullScreen || this.iframe.webkitRequestFullScreen;
-  if (this.requestFullScreen) {
-    this.requestFullScreen.bind(this.iframe)();
-  }
-}
 }
