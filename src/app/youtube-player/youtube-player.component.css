@@ -8,12 +8,15 @@
 }
 
 .you-btn{
-  width:100px;
-  height:100px;
-  border-radius: 50px;
-  background-color: transparent;
+  width:900px;
+  height:600px;
+  
 
 }
+img:hover{
+	background-color: gray;
+}
+
 .icon {
 	color: white;
 	font-size:24px;

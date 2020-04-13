@@ -20,7 +20,7 @@ export class VideographyComponent implements OnInit {
     lifestyle: "Lifestyle"
   }
   subtitles = {
-    tom: "…because something is always cooking in our studio",
+    tom: "2006 - 2018 RIP #thuglife #TupacLives",
     lifestyle: "Lifestyle"
   }
 

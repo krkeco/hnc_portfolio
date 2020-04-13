@@ -41,7 +41,6 @@ export class PhotographyComponent implements OnInit {
       './assets/img/photography/ensenada/2-mx_orig.jpg',
       './assets/img/photography/ensenada/3-mex_orig.jpg',
       './assets/img/photography/ensenada/3-mx_orig.jpg',
-      './assets/img/photography/ensenada/25_orig.jpg',
       './assets/img/photography/ensenada/dad-bw_orig.jpg',
       './assets/img/photography/ensenada/dad_orig.jpg',
       './assets/img/photography/ensenada/mx-2_orig.jpg',

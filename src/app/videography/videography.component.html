@@ -1,15 +1,11 @@
-<div class="view-padding-top alt-bg-color videography-container">
-  
-  <div class="menu-container">
-    <app-social-bar [style]="'white'" ></app-social-bar>
-    <button class="sub-btn" mat-button>Subscribe</button>
-  </div>
+<div class="videography-container">
   
   <div class="video-container">
     <p class="title">{{titles[this.id]}}</p>
     <p class="subtitle">"{{subtitles[this.id]}}"</p>
     <app-youtube-player ></app-youtube-player>
   </div>
+    <app-social-bar [style]="'white'" ></app-social-bar>
 
   <!-- <p class="favorite-text">Favorites</p>
   <div class="favorite-container">

@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatDividerModule } from '@angular/material/divider';
 import { IdentityComponent } from './identity/identity.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
@@ -52,6 +53,7 @@ import { SocialBarComponent } from './social-bar/social-bar.component';
     BrowserAnimationsModule,
     MatSliderModule,
     MatButtonModule,
+    MatDividerModule,
     MatMenuModule,
     FontAwesomeModule,
     YouTubePlayerModule,
