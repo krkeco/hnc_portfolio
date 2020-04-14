@@ -11,7 +11,7 @@
 .identity-col{
 	width: 50%;
 	flex-direction: column; 
-	height:90vh; 
+	/*height:90vh; */
 }
 .title{
 	margin-bottom: 80px;
@@ -25,4 +25,12 @@
 	margin-top:20px;
 	margin-bottom:20px;
 	
+}
+.socal-img{
+	display: flex; 
+	align-items:center;
+	justify-content: center; 
+	width: 100%;
+	padding:25%;
+	margin-top:15%;
 }
