@@ -34,3 +34,11 @@ body { margin: 0; }
 .alt-bg-color{
     background-color: #4a544a !important;
 }
+
+.title {
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}

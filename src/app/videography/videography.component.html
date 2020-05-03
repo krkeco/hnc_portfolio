@@ -1,18 +1,15 @@
 <div class="videography-container">
-  
-  <div class="video-container">
-    <p class="title">{{titles[this.id]}}</p>
-    <p class="subtitle">"{{subtitles[this.id]}}"</p>
-    <app-youtube-player ></app-youtube-player>
-    <app-social-bar ></app-social-bar>
-    <div style="height:50px"></div>
+  <p class="title">{{ titles[this.id] }}</p>
+  <p class="subtitle">"{{ subtitles[this.id] }}"</p>
+  <div *ngIf="this.id == 'tom'" class="video-container">
+    <app-youtube-player></app-youtube-player>
+    <app-social-bar
+      [fbUrl]="'https://www.facebook.com/theonewaymission'"
+      [inUrl]=""
+      [youUrl]="'https://www.youtube.com/user/thismvmt'"
+      [igUrl]="'https://www.instagram.com/theonewaymission/'"
+      [eUrl]=""
+    ></app-social-bar>
+    <div style="height: 50px;"></div>
   </div>
-
-  <!-- <p class="favorite-text">Favorites</p>
-  <div class="favorite-container">
-    <div class="favorite-box">1</div>
-    <div class="favorite-box">2</div>
-    <div class="favorite-box">3</div>
-  </div> -->
-  
 </div>

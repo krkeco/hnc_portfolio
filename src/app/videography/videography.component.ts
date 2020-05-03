@@ -6,7 +6,7 @@ import {
 } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
-import {StylingService} from '../styling.service'
+import { StylingService } from '../styling.service';
 
 @Component({
   selector: 'app-videography',
@@ -16,13 +16,13 @@ import {StylingService} from '../styling.service'
 export class VideographyComponent implements OnInit {
   id;
   titles = {
-    tom: "Meditations",
-    lifestyle: "Lifestyle"
-  }
+    tom: 'Archive:TOMStudios',
+    lifestyle: 'Lifestyle',
+  };
   subtitles = {
-    tom: "2006 - 2018 RIP #thuglife #TupacLives",
-    lifestyle: "Lifestyle"
-  }
+    tom: '2006 - 2018 RIP #thuglife #TupacLives',
+    lifestyle: 'Coming Soon...',
+  };
 
   // reqYoutubePlayer() {
   //   console.log("let's do this!")
@@ -35,23 +35,23 @@ export class VideographyComponent implements OnInit {
   //     } else {
   //       document.exitFullscreen();
   //     }
-    
 
   // }
 
-  constructor(private Activatedroute: ActivatedRoute, private stylingService: StylingService ) {
-  }
+  constructor(
+    private Activatedroute: ActivatedRoute,
+    private stylingService: StylingService,
+  ) {}
 
   ngOnInit(): void {
-    
-    this.stylingService.setMenuStyles('video')
+    this.stylingService.setMenuStyles('video');
 
     this.Activatedroute.queryParamMap.subscribe((params) => {
       this.id = params.get('id');
       console.log('Query params ', this.id);
     });
   }
-  ngOnDestroy(): void{
-    this.stylingService.setMenuStyles('')
+  ngOnDestroy(): void {
+    this.stylingService.setMenuStyles('');
   }
 }

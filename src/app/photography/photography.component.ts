@@ -18,10 +18,10 @@ export class PhotographyComponent implements OnInit {
     ensenada: 'Ensenada in B&W',
     paris: 'Lovers in Paris',
     rome: 'Streets of Rome',
-    harvest: "Harvest Festival",
-    vbs: "VBS",
-    kaytim: "Kay&Tim",
-    thanksgiving: "Thanksgiving",
+    harvest: 'Harvest Festival',
+    vbs: 'VBS',
+    kaytim: 'Kay&Tim',
+    thanksgiving: 'Thanksgiving',
   };
   images = {
     sandiego: [
@@ -68,14 +68,14 @@ export class PhotographyComponent implements OnInit {
     thanksgiving: [],
   };
 
-  constructor(private Activatedroute: ActivatedRoute) {
-    
-  }
+  constructor(private Activatedroute: ActivatedRoute) {}
 
   ngOnInit(): void {
-    
     this.Activatedroute.queryParamMap.subscribe((params) => {
       this.id = params.get('id');
+      if (!this.id) {
+        this.id = 'sandiego';
+      }
       console.log('Query params ', this.id);
     });
   }

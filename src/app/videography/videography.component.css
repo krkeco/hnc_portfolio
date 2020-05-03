@@ -1,47 +1,45 @@
-.videography-container{
-  height:100vh;
-  width:100%;
+.videography-container {
+  height: 100vh;
+  width: 100%;
   margin-top: 100px;
-  
 }
 
 .menu-container {
   position: fixed;
-  top:5px;
-  right:150px;
-  display:flex;
-  height:50px;
+  top: 5px;
+  right: 150px;
+  display: flex;
+  height: 50px;
   /*width: 400px;*/
   /*outline: 1px solid black;*/
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  
+
   /*outline: 1px solid black;*/
-  
 }
-.sub-btn{
-  background-color:white;
+.sub-btn {
+  background-color: white;
   width: 120px;
   color: #4a544a;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-
+/*
 .title {
   font-family: 'Avenir-Heavy';
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 50px;
-}
+}*/
 .subtitle {
   font-family: 'Avenir-Book';
-  font-size: 20px;
+  font-size: 12px;
   letter-spacing: 1px;
   margin-bottom: 50px;
+  text-align: center;
 }
-
 
 .video-container {
   width: 100%;
@@ -50,14 +48,13 @@
   flex-direction: column;
 }
 
-
 .favorite-container {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   flex-direction: row;
-  padding-bottom:100px;
+  padding-bottom: 100px;
 }
 .favorite-text {
   text-align: left;
@@ -70,4 +67,3 @@
   height: 80px;
   background-color: black;
 }
-

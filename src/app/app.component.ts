@@ -15,7 +15,7 @@ export class AppComponent {
   ){
     this.matIconRegistry.addSvgIcon(
       "video",
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/video.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/videography.svg")
     );
     this.matIconRegistry.addSvgIcon(
       "photo",
