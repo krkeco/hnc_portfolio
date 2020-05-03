@@ -15,15 +15,15 @@ export class AppComponent {
   ){
     this.matIconRegistry.addSvgIcon(
       "video",
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/videography.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/video.svg")
     );
     this.matIconRegistry.addSvgIcon(
       "photo",
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/photo.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/polaroid.svg")
     );
     this.matIconRegistry.addSvgIcon(
       "logo",
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/logo.svg")
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/icons/brush.svg")
     );
   }
 }
