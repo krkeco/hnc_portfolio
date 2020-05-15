@@ -16,10 +16,11 @@
   font-size: 3em;
 }
 .quote {
-  font-size: 24pt;
-  line-height: 36pt;
-  margin-top: 42pt;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 18pt;
   margin-left: 20px;
+  margin-right:20px;
 }
 .speaker {
   text-align: right;
@@ -28,5 +29,13 @@
 @media screen and (min-width:720px){
   .quote-block {
     padding: 100px;
+  }
+  .quote{
+    /*font-size: 24pt;*/
+    /*line-height: 36pt;*/
+    margin-top: 42pt;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-right:0px;
   }
 }
