@@ -27,9 +27,6 @@ body { margin: 0; }
     font-style: normal;
 }
 
-.view-padding-top {
-    padding-top: 100px;
-}
 
 .alt-bg-color{
     background-color: #4a544a !important;
@@ -41,4 +38,14 @@ body { margin: 0; }
   font-size: 18px;
   margin-bottom: 40px;
   text-transform: uppercase;
+}
+
+.view-padding-top {
+    padding-top: 25px;
+}
+
+@media screen and (min-width:720px){
+  .view-padding-top{
+    padding-top: 100px;
+  }
 }

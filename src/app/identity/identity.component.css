@@ -1,5 +1,5 @@
 .identity-container {
-  padding: 150px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -24,4 +24,13 @@
   width: 100%;
   padding: 25%;
   margin-top: 15%;
+}
+
+
+@media screen and (min-width:720px){
+  .identity-container {
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+  }
 }

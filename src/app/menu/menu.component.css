@@ -22,9 +22,33 @@
   font-family: 'Avenir-Light';
   outline: none;
 }
+.icon{
+  font-size: 2em;
+}
 .bold {
   font-family: 'Avenir-Heavy';
 }
 .blackground {
   background-color: black;
+}
+
+.menu-wide{
+  visibility:hidden;
+}
+.menu-mobile{
+  visibility: visible;
+  display:fixed;
+  width:100%;
+  justify-content: flex-end;
+  top:0px;
+  right:0px;
+}
+
+@media screen and (min-width:720px){
+  .menu-wide {
+    visibility: visible;
+  }
+  .menu-mobile {
+    visibility: hidden;
+  }
 }

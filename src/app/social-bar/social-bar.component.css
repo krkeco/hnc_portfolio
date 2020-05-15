@@ -8,9 +8,17 @@
 }
 
 .icon {
-  font-size: 18px;
+  font-size: 2em;
   text-align: center;
   margin: 8px;
+}
+
+@media screen and (min-width:720px){
+  .icon{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 8px;
+  }
 }
 
 .link {

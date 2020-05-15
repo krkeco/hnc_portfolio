@@ -1,5 +1,5 @@
-<div class="container">
-  <div *ngFor="let feature of features">
+<div class="feat-container">
+  <div class="row" *ngFor="let feature of features">
     <app-feature-item
       [title]="feature.title"
       [text]="feature.text"

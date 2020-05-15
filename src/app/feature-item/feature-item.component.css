@@ -1,6 +1,6 @@
 .feature-item {
   /*outline: 1px solid black;*/
-  width: 250px;
+  max-width: 250px;
   margin: 30px;
   display: flex;
   justify-content: flex-start;
@@ -24,4 +24,10 @@
 .feat-title {
   font-size:14px;
   font-family: 'Avenir-Heavy';
+}
+
+@media screen and (min-width:720px){
+  .feature-item {
+    
+  }
 }

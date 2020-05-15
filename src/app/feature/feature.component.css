@@ -1,9 +1,15 @@
-.container {
+.feat-container {
   display: flex;
   /*border:1px solid black;*/
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   /*	background-color: gray;*/
+}
+
+@media screen and (min-width:720px){
+  .feat-container {
+    flex-direction: row;
+  }
 }
