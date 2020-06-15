@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: column;
 }
+.hover-img{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.hover-img:hover{
+  opacity:.7;
+  transition: opacity 0.5s;
+}
 .identity-row {
   display: flex;
   flex-direction: row;
