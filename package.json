@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --poll=2000",
     "build": "npm version patch && ng build --prod --aot",
-    "s3sync": "aws s3 sync ./dist/hannah-nacole/ s3://hannah-art --acl public-read",
+    "s3sync": "aws s3 sync ./dist/hannah-nacole/ s3://hannah-art --acl public-read --exclude ./dist/hannah-nacole/assets/img",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
