@@ -7,6 +7,7 @@
 }
 .rock-img {
 	object-fit: cover;
+  margin: 10px;
   width: 100%;
   height: auto;
 }
