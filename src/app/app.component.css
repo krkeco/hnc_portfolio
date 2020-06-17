@@ -6,6 +6,7 @@
 }
 .app {
   font-family: 'Avenir-Light';
+  height:100%;
 }
 .top-buffer {
   height: 100px;
