@@ -1,5 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+#too many photos
+/assets/img/photography
+/assets/img/logos
+
 # compiled output
 /dist
 /tmp
