@@ -1,11 +1,11 @@
 {
   "name": "hannah-nacole",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --poll=2000",
     "build": "npm version patch && ng build --prod --aot",
-    "s3sync":"aws s3 sync ./dist/hannah-nacole/ s3://hannah-art --acl public-read",
+    "s3sync": "aws s3 sync ./dist/hannah-nacole/ s3://hannah-art --acl public-read",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
