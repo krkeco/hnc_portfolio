@@ -1,9 +1,6 @@
 # HannahNacole
 
 ##todo
-footer
-	icons
-	contactme
 
 ##pending
 

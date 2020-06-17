@@ -1,0 +1,12 @@
+.rock-container{
+	min-height:100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding:40px;
+}
+.rock-img{
+	margin:10px;
+	height:600px;
+	width:auto;
+}

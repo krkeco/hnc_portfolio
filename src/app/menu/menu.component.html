@@ -32,7 +32,7 @@
     <button
       routerLinkActive="bold"
       class="menu-item"
-      routerLink="/identity"
+      [matMenuTriggerFor]="identity"
       mat-button
     >
       DESIGN
@@ -63,10 +63,22 @@
   <button class="menu-item" mat-menu-item [matMenuTriggerFor]="videography">
     VIDEOGRAPHY
   </button>
-  <button class="menu-item" mat-menu-item routerLink="/identity">
+  <button class="menu-item" mat-menu-item [matMenuTriggerFor]="identity">
     DESIGN
   </button>
 </mat-menu>
+
+<mat-menu #identity="matMenu">
+  <button class="menu-item" mat-menu-item 
+    routerLink="/identity">
+    Identity
+  </button>
+  <button class="menu-item" mat-menu-item 
+    routerLink="/rockson">
+    Rockson
+  </button>
+</mat-menu>
+
 
 <mat-menu #photography="matMenu">
   <button class="menu-item" mat-menu-item [matMenuTriggerFor]="travelMenu">

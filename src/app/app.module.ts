@@ -30,6 +30,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SocialBarComponent } from './social-bar/social-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { RocksonComponent } from './rockson/rockson.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { FooterComponent } from './footer/footer.component';
     YoutubePlayerComponent,
     SocialBarComponent,
     FooterComponent,
+    RocksonComponent,
   ],
   imports: [
     BrowserModule,
