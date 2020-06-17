@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --poll=2000",
-    "build": "ng build --prod --aot",
+    "build": "npm version patch && ng build --prod --aot",
     "s3sync":"aws s3 sync ./dist/hannah-nacole/ s3://hannah-art --acl public-read",
     "test": "ng test",
     "lint": "ng lint",
