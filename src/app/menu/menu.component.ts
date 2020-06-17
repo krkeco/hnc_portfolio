@@ -9,8 +9,8 @@ import { faCoffee, faBars } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./menu.component.css'],
 })
 export class MenuComponent implements OnInit {
-	faCoffee = faCoffee;
-	faBars = faBars;
+  faCoffee = faCoffee;
+  faBars = faBars;
   constructor(private stylingService: StylingService) {}
 
   ngOnInit(): void {}

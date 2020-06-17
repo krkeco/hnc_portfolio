@@ -8,9 +8,8 @@ describe('RocksonComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RocksonComponent ]
-    })
-    .compileComponents();
+      declarations: [RocksonComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

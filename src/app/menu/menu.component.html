@@ -5,56 +5,51 @@
       [matMenuTriggerFor]="main"
       class="menu-item"
       mat-button
-  >
-  <fa-icon [icon]="faBars" class="icon"></fa-icon
-  >
-</button>
+    >
+      <fa-icon [icon]="faBars" class="icon"></fa-icon>
+    </button>
   </div>
-  
+
   <div class="menu-wide sticky">
     <div>
+      <button
+        routerLinkActive="bold"
+        [matMenuTriggerFor]="photography"
+        class="menu-item"
+        mat-button
+      >
+        PHOTOGRAPHY
+      </button>
+      <button
+        routerLinkActive="bold"
+        class="menu-item"
+        [matMenuTriggerFor]="videography"
+        mat-button
+      >
+        VIDEOGRAPHY
+      </button>
+      <button
+        routerLinkActive="bold"
+        class="menu-item"
+        [matMenuTriggerFor]="identity"
+        mat-button
+      >
+        DESIGN
+      </button>
+    </div>
     <button
       routerLinkActive="bold"
-      [matMenuTriggerFor]="photography"
-      class="menu-item"
+      class="menu-item menu-wide"
+      routerLink="/home"
       mat-button
     >
-      PHOTOGRAPHY
-    </button>
-    <button
-      routerLinkActive="bold"
-      class="menu-item"
-      [matMenuTriggerFor]="videography"
-      mat-button
-    >
-      VIDEOGRAPHY
-    </button>
-    <button
-      routerLinkActive="bold"
-      class="menu-item"
-      [matMenuTriggerFor]="identity"
-      mat-button
-    >
-      DESIGN
+      HOME
     </button>
   </div>
-  <button
-    routerLinkActive="bold"
-    class="menu-item menu-wide"
-    routerLink="/home"
-    mat-button
-  >
-    HOME
-  </button>
-</div>
 </div>
 
 <mat-menu #main="matMenu">
-    <button
-    class="menu-item"
-    routerLink="/home"
-    mat-menu-item
-  >
+  <button class="menu-item" routerLink="/home" mat-menu-item>
     HOME
   </button>
   <button class="menu-item" mat-menu-item [matMenuTriggerFor]="photography">
@@ -69,16 +64,13 @@
 </mat-menu>
 
 <mat-menu #identity="matMenu">
-  <button class="menu-item" mat-menu-item 
-    routerLink="/identity">
+  <button class="menu-item" mat-menu-item routerLink="/identity">
     Identity
   </button>
-  <button class="menu-item" mat-menu-item 
-    routerLink="/rockson">
+  <button class="menu-item" mat-menu-item routerLink="/rockson">
     Rockson
   </button>
 </mat-menu>
-
 
 <mat-menu #photography="matMenu">
   <button class="menu-item" mat-menu-item [matMenuTriggerFor]="travelMenu">

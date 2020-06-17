@@ -1,16 +1,16 @@
 .carousel {
 }
-.photo-box{
-	min-height:100%;
-	/*background-color: gray;*/
+.photo-box {
+  min-height: 100%;
+  /*background-color: gray;*/
 }
 .photo-container {
   /*width: 900px;*/
   /*height: 400px;*/
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  margin-bottom:100px;
+  justify-content: center;
+  margin-bottom: 100px;
   align-items: center;
   /*min-height:1200px;*/
   /*background-color:gray;*/

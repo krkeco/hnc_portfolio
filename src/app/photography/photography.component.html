@@ -4,7 +4,13 @@
     <ngb-carousel *ngIf="images" class="carousel">
       <ng-template ngbSlide *ngFor="let item of images[this.id]; let i = index">
         <div>
-          <img  [src]="item" alt="{{ i }}" width="900" height="400" style="object-fit:cover"  />
+          <img
+            [src]="item"
+            alt="{{ i }}"
+            width="900"
+            height="400"
+            style="object-fit: cover;"
+          />
         </div>
       </ng-template>
     </ngb-carousel>
