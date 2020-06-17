@@ -1,8 +1,16 @@
 .carousel {
 }
 .photo-container {
-  width: 900px;
-  height: 400px;
+  /*width: 900px;*/
+  /*height: 400px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-bottom:100px;
+  align-items: center;
+  /*min-height:1200px;*/
+  /*background-color:gray;*/
+  height:100%;
 }
 .carousel-control-prev-icon {
   background-image: url('https://apufpel.com.br/assets/img/seta_prim.png');

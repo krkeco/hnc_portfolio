@@ -1,10 +1,10 @@
-<div>
-  <div class="container photo-container view-padding-top">
+<div class="container">
+  <div class="photo-container view-padding-top">
     <p class="title">{{ title[this.id] }}</p>
     <ngb-carousel *ngIf="images" class="carousel">
       <ng-template ngbSlide *ngFor="let item of images[this.id]; let i = index">
         <div>
-          <img [src]="item" alt="{{ i }}" width="100%" height="auto"  />
+          <img [src]="item" alt="{{ i }}" width="900" height="400"  />
         </div>
         <!--     <div class="carousel-caption">
       <h3>slide {{i}} label </h3>
