@@ -151,6 +151,15 @@
   >
     VBS
   </button>
+
+  <button
+    class="menu-item"
+    routerLink="/photography"
+    [queryParams]="{ id: 'covid' }"
+    mat-menu-item
+  >
+    COVID-19
+  </button>
 </mat-menu>
 
 <mat-menu #lifestyleMenu="matMenu">
@@ -173,10 +182,10 @@
   <button
     class="menu-item"
     routerLink="/photography"
-    [queryParams]="{ id: 'covid' }"
+    [queryParams]="{ id: 'lifeoc' }"
     mat-menu-item
   >
-    COVID-19
+    Life OC
   </button>
 </mat-menu>
 
