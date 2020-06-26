@@ -1,5 +1,6 @@
 .identity-container {
   padding: 50px;
+  /*margin-top:0px;*/
   display: flex;
   flex-direction: column;
 }
@@ -22,8 +23,12 @@
   /*height:90vh; */
 }
 .identity-divider {
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
+  margin-left:0px;
+}
+.feature-space{
+  letter-spacing: 2px;
 }
 .socal-img {
   display: flex;
@@ -37,6 +42,7 @@
 @media screen and (min-width: 720px) {
   .identity-container {
     padding: 150px;
+    padding-top:50px;
     display: flex;
     flex-direction: column;
   }
