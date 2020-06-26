@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 import { IdentityComponent } from './identity/identity.component';
 import { RocksonComponent } from './rockson/rockson.component';
+import { ProjectsComponent } from './projects/projects.component';
 import { PhotographyComponent } from './photography/photography.component';
 import { VideographyComponent } from './videography/videography.component';
 
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'rockson',
     component: RocksonComponent,
+  },
+  {
+    path: 'projects',
+    component: ProjectsComponent,
   },
   {
     path: 'photography',

@@ -31,6 +31,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SocialBarComponent } from './social-bar/social-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { RocksonComponent } from './rockson/rockson.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { RocksonComponent } from './rockson/rockson.component';
     SocialBarComponent,
     FooterComponent,
     RocksonComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
