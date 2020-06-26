@@ -1,12 +1,18 @@
 .carousel {
 }
 .photo-box {
-  min-height: 900px;
+  min-height: 100%;
+  /*max-width:100%;*/
+  width:100%;
+  max-width:100%;
+  padding:10%;
+  padding-top:0px;
   /*background-color: gray;*/
 }
 .photo-container {
-  width: 900px;
-  height: 400px;
+  max-width: 1280px;
+  /*max-height: 720px;*/
+  /*height:50%;*/
   /*display: flex;*/
   /*flex-direction: column;*/
   /*justify-content: center;*/
@@ -19,8 +25,8 @@
 }
 .photo-container-square {
   margin:auto;
-  width: 700px;
-  height: 700px;
+  width: 720px;
+  /*height: auto;*/
   /*display: flex;*/
   /*flex-direction: column;*/
   /*justify-content: center;*/
