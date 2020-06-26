@@ -12,6 +12,7 @@ import { filter } from 'rxjs/operators';
   styleUrls: ['./photography.component.css'],
 })
 export class PhotographyComponent implements OnInit {
+  
   id;
   title = {
     sandiego: 'California Vibes',
@@ -116,6 +117,14 @@ export class PhotographyComponent implements OnInit {
       this.id = params.get('id');
       if (!this.id) {
         this.id = 'sandiego';
+      }
+      this.photoContainer = "photo-container view-padding-top";
+      if(this.id == 'sandiego'
+        || this.id == 'ensenada'
+        || this.id == 'paris'
+        || this.id == 'rome'){
+        console.log('squareify')
+        this.photoContainer = "photo-container-square view-padding-top";
       }
       console.log('Query params ', this.id);
     });

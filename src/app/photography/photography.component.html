@@ -1,5 +1,5 @@
 <div class="photo-box">
-  <div class="photo-container view-padding-top">
+  <div class="{{this.photoContainer}}">
     <p class="title">{{ title[this.id] }}</p>
     <ngb-carousel *ngIf="images" class="carousel">
       <ng-template ngbSlide *ngFor="let item of images[this.id]; let i = index">
@@ -7,8 +7,8 @@
           <img
             [src]="item"
             alt="{{ i }}"
-            width="900"
-            height="400"
+            width="100%"
+            height="auto"
             style="object-fit: cover;"
           />
         </div>
