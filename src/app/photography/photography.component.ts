@@ -12,7 +12,7 @@ import { filter } from 'rxjs/operators';
   styleUrls: ['./photography.component.css'],
 })
 export class PhotographyComponent implements OnInit {
-  
+  photoContainer;
   id;
   title = {
     sandiego: 'California Vibes',
