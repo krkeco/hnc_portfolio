@@ -2,4 +2,18 @@
   width: 100%;
   background-color: #ddd;
   height: 75px;
+  display:flex;
+  padding-left:50px;
+  padding-right:50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-text{
+	text-decoration: none;
+	transition: 0.5s color;
+}
+.foot-text:hover{
+	color:black;
+	transition: 0.5s color;
 }
