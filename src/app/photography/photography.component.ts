@@ -57,6 +57,14 @@ export class PhotographyComponent implements OnInit {
       './assets/img/photography/paris/3-paris_orig.jpg',
       './assets/img/photography/paris/3-royals_orig.jpg',
     ],
+    rome: [
+      './assets/img/photography/rome/Rome1.jpg',
+      './assets/img/photography/rome/Rome2.jpg',
+      './assets/img/photography/rome/Rome3.jpg',
+      './assets/img/photography/rome/Rome4.jpg',
+      './assets/img/photography/rome/Rome5.jpg',
+      './assets/img/photography/rome/Rome6.jpg',
+    ],
     covid: [
       './assets/img/photography/covid/1.jpg',
       './assets/img/photography/covid/2.jpg',
