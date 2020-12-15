@@ -5,24 +5,24 @@ body { margin: 0; }
 
 @font-face {
     font-family: 'Avenir-Heavy';
-    src: url('http://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Heavy.woff2') format('woff2'),
-        url('http://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Heavy.woff') format('woff');
+    src: url('https://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Heavy.woff2') format('woff2'),
+        url('https://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Heavy.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir-Light';
-    src: url('http://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Light.woff2') format('woff2'),
-        url('http://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Light.woff') format('woff');
+    src: url('https://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Light.woff2') format('woff2'),
+        url('https://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir-Book';
-    src: url('http://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Book.woff2') format('woff2'),
-        url('http://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Book.woff') format('woff');
+    src: url('https://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Book.woff2') format('woff2'),
+        url('https://hannah-art.s3-us-west-2.amazonaws.com/fonts/Avenir-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
